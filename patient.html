@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Data Form</title>
+</head>
+<body>
+    <h1>Patient Data Form</h1>
+    <form>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        
+        <label for="dob">Date of birth:</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label for="pob">Place of birth:</label><br>
+        <input type="text" id="pob" name="pob"><br><br>
+
+        <label>Illnesses:</label><br>
+        <input type="checkbox" id="ill1" name="ill1" value="Flu"> <label for="ill1">Flu</label><br>
+        <input type="checkbox" id="ill2" name="ill2" value="Cough"> <label for="ill2">Cough</label><br>
+        <input type="checkbox" id="ill3" name="ill3" value="Fever"> <label for="ill3">Fever</label><br>
+        <input type="checkbox" id="ill4" name="ill4" value="Headache"> <label for="ill4">Headache</label><br><br>
+
+        <label for="notes">Notes:</label><br>
+        <textarea id="notes" name="notes" rows="4" cols="40"></textarea><br><br>
+        
+        <button type="button">Ok</button>
+        <button type="button">Cancel</button>
+    </form>
+</body>
+</html>
